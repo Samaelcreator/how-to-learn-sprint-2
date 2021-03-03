@@ -163,7 +163,7 @@ display: flex;
   justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
-  flex-wrap: wrap
+  flex-wrap: wrap;
   }
 
 .table__cell {
@@ -183,11 +183,6 @@ display: flex;
   font-weight: bolder;
   }
 
-.table__text {
-  
-  
-}
-
 .feynman {
   height: 790px;
   display: flex;
@@ -203,7 +198,7 @@ display: flex;
     line-height: 1.15;
     font-size: 120px;
     font-weight: bolder;
-    display: flex;    
+    display: flex;
     margin-top:0;
     margin-bottom:0;
     text-align: center;
@@ -369,10 +364,6 @@ color: #2f80ed;
   width: 16px;
   height: 16px;
 }
-
-.logo {
-    width: 183px;
-  }
   
   .logo_place_footer {
     position: absolute;
