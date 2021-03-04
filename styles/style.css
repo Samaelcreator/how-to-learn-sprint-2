@@ -231,13 +231,11 @@ display: flex;
     justify-content: flex-end;
     align-items: center;
     flex-direction: row;
+    padding-right: 48px;
+    color: #2f80ed;
   }
 
-  .feynman__link a {
-color: #2f80ed;
-  }
-
-.kaufman {
+  .kaufman {
   display: flex;
   position: relative;
   background-color: #1f1f1f;
@@ -247,6 +245,7 @@ color: #2f80ed;
   justify-content: center;
   align-items: center;
   z-index: -2;
+  overflow: hidden;
 }
 
 .section-title_theme_dark {
