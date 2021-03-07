@@ -26,12 +26,11 @@
 .header__subtitle {
   margin: 0;
   width: 388px;
-  padding: 30px 64px;
+  bottom: 30px;
+  left: 64px;
   position: absolute;
   line-height: 25px;
   font-size: 18px;
-  bottom: 0;
-  left: 0;
   z-index: 1;
   font-weight: normal;
 }
@@ -51,7 +50,7 @@
   width: 568px;
   height: 568px;
   background: #2f80ed;
-  margin: 64px 0;
+  top: 64px;
   position: absolute;
   right: 0;
 }
@@ -61,8 +60,9 @@
 .logo_place_header {
   position: absolute;
   height: 32px;
-  padding: 30px 0 0 64px;
   z-index: 1;
+  top: 30px;
+  left: 64px;
 }
 .border {
   border: 1px solid red;
@@ -110,6 +110,7 @@
   margin: 100px 0 100px;
 }
 .section-title {
+  margin: 0;
   width: 60%;
   display: flex;
   justify-content: center;
@@ -171,7 +172,7 @@
   text-align: center;
   z-index: 1;
 }
-.feyman__subtitle {
+.feynman__subtitle {
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -190,12 +191,11 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-  padding-right: 48px;
   color: #2f80ed;
   text-decoration: none;
   position: absolute;
-  right: 0;
-  bottom: 395px;
+  right: 48px;
+  top: 50%;
 }
 .kaufman {
   display: flex;
@@ -209,7 +209,7 @@
   z-index: 1;
   overflow: hidden;
 }
-.kaufman__section-title_theme_dark {
+.section-title_theme_dark {
   width: 60%;
   display: flex;
   justify-content: center;
@@ -220,7 +220,7 @@
   color: white;
   margin-right: 0;
 }
-.kaufman__section-subtitle_theme_dark {
+.section-subtitle_theme_dark {
   width: 60%;
   display: flex;
   justify-content: center;
@@ -230,28 +230,28 @@
   color: white;
   margin-right: 0;
 }
-.kaufman__table__heading_theme_dark{
+.table__heading_theme_dark{
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
   margin: 0;
 }
-.kaufman__table__text_theme_dark {
+.table__text_theme_dark {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  margin: 0;
 }
 .kaufman__triangle {
   background-image: url(../images/kaufman-triangle.svg);
   width: 877px;
   height: 877px;
+  background-size: 877px;
   z-index: -1;
   position: absolute;
   right: -210px;
   top: 0;
 }
-.kaufman__table__cell_theme_dark {
+.table__cell_theme_dark {
   width: 200px;
   color: white;
   margin: 80px 0 0;
@@ -283,12 +283,11 @@
 .footer__column-link, .footer__column-links {
   color: #ffffff;
   text-decoration: none;
-}
-ul {
   list-style: none;
   margin-left: auto;
   padding-left: 0;
 }
+
 .footer__column_content_copyright {
   flex-basis: 711px;
   display: flex;
