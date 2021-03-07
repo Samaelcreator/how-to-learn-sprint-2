@@ -247,7 +247,7 @@
   height: 877px;
   background-size: 877px;
   z-index: -1;
-  background-position: absolute;
+  position: absolute;
   background-repeat: no-repeat;
   right: -210px;
   top: 0;
