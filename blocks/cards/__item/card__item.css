@@ -1,10 +1,10 @@
-.techniques__card_item {
+.card__item {
     width: 240px;
     margin-bottom: 0;
     margin-top: 0;
     margin-left: 0;
     margin-right: 100px;
 }
-.techniques__card_item:nth-child(3n) {
+.card__item:nth-child(3n) {
     margin-right: 0px;
 }
