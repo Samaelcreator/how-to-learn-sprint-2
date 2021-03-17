@@ -5,4 +5,9 @@
     margin-left: auto;
     padding-left: 0;
   }
+
+  .footer__column-link:hover {
+    opacity: .5;
+    transition:linear;
+  }
   
