@@ -7,8 +7,4 @@
     position: absolute;
     right: -210px;
     top: 0;
-    animation-name: rotation;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-  }
+}
